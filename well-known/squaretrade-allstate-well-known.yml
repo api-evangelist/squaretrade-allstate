@@ -1,0 +1,26 @@
+generated: '2026-07-21'
+method: probed
+source: live probes of /.well-known/* on www.squaretrade.com
+host: www.squaretrade.com
+endpoints:
+- path: /.well-known/security.txt
+  status: 301
+  file: null
+  note: geo-redirects to a localized squaretrade.hu path; no RFC 9116 policy served
+- path: /.well-known/openid-configuration
+  status: 404
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 404
+  file: null
+- path: /.well-known/api-catalog
+  status: 404
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 404
+  file: null
+- path: /llms.txt
+  status: 301
+  file: null
+  note: redirect loop back to /llms.txt; no llms.txt served
+result: none

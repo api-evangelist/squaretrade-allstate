@@ -1,8 +1,13 @@
 aid: squaretrade-allstate
 name: SquareTrade (Allstate)
-description: 'SquareTrade (Allstate) is a company surfaced as a portfolio company of bain-capital-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'SquareTrade, an Allstate company, provides consumer product protection plans and extended
+  warranties for smartphones, electronics, appliances, furniture, and other goods, marketed in North
+  America as Allstate Protection Plans. It serves more than 140 million customers through partnerships
+  with major retailers and mobile carriers across the US, Europe, Japan, and Australia, handling plan
+  registration, claims filing, same-day repairs, and in-home service. SquareTrade was surfaced as a
+  portfolio company of bain-capital-ventures and added to the API Evangelist network. As of this
+  enrichment pass the company publishes no public developer API, developer portal, or API documentation;
+  its digital surface is consumer- and partner-facing (plan portal, claims, partnerships).'
 url: https://raw.githubusercontent.com/api-evangelist/squaretrade-allstate/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,30 @@ x-backed-by:
 - bain-capital-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Fintech
+- Insurance
+- Warranty
+- Product Protection
+- Extended Warranty
+- Consumer Electronics
+- Claims
+image: https://www.squaretrade.com/favicon.ico
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.squaretrade.com/
+- type: Blog
+  url: https://blog.squaretrade.com/
+- type: Support
+  url: https://help.squaretrade.com/help
+- type: PrivacyPolicy
+  url: https://www.squaretrade.com/privacy-policy
+- type: TermsOfService
+  url: https://www.squaretrade.com/terms
+- type: Login
+  url: https://www.squaretrade.com/frontend/plan-portal/#/
+- type: Partnerships
+  url: https://www.squaretrade.com/partnerships
+- type: DomainSecurity
+  url: security/squaretrade-allstate-domain-security.yml
+- type: WellKnown
+  url: well-known/squaretrade-allstate-well-known.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
